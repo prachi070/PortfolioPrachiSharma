@@ -1,0 +1,162 @@
+.myworkskill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  /* margin: 80px auto;  */
+  /* padding-top: 100px; */
+  padding: 500px 0px;
+  margin-bottom: 300px;
+  height: 100vh;
+
+  /* width: 50%;  */
+}
+
+.headingskill {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Alkatra", system-ui;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 columns */
+  grid-template-rows: repeat(2, 1fr); /* Create 2 rows */
+  gap: 50px; /* Space between items */
+  justify-items: center; /* Center items horizontally */
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  gap: 10px; /* Space between label and progress bar */
+}
+
+.progressLabel {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bolder; /* Make text bold */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  white-space: nowrap; /* Prevents label from wrapping */
+}
+
+.progressVisualFull {
+  display: flex;
+  align-items: center;
+  height: 15px;
+  width: 100%; /* Adjust as needed */
+  position: relative;
+}
+
+.progressVisualPart {
+  transition: all 2s;
+  height: 100%;
+  position: relative;
+}
+
+.percentageLabel {
+  position: absolute;
+  right: 5px; /* Adjust as needed to position the text within the bar */
+  top: 50%;
+  transform: translateY(-50%);
+  color: white; /* Adjust color as needed for visibility */
+  font-weight: bold; /* Optional: Make the text bold */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  max-width: 300px;
+  text-align: center;
+  color: white;
+}
+
+.label {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  font-size: 1.5rem;
+  color: rgb(70, 70, 194);
+  font-weight: bolder;
+  margin-top: 3rem;
+  gap: 5px;
+}
+
+.circularProgressContainer {
+  width: 120px;
+  height: 100px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1008px) {
+  .gridContainer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .myworkskill {
+    padding-top: 800px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper{
+    padding: 50px;
+  }
+  .myworkskill {
+    padding-top: 850px;
+  }
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns for tablets */
+    grid-template-rows: repeat(4, 1fr); /* Adjust to 4 rows for tablets */
+  }
+  .circularProgressContainer {
+    width: 95px; /* Adjust size for tablets */
+    height: 95px; /* Adjust size for tablets */
+  }
+  .label {
+    font-size: 2rem; /* Adjust label size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .myworkskill {
+    padding-top: 1400px;
+    margin-bottom: 200px;
+  }
+  .wrapper{
+    padding: 30px;
+
+  }
+  .gridContainer {
+    grid-template-columns: 1fr; /* Adjust to 1 column for mobile devices */
+    grid-template-rows: repeat(
+      8,
+      1fr
+    ); /* Adjust to 8 rows for mobile devices */
+  }
+  .circularProgressContainer {
+    width: 100px; /* Adjust size for mobile devices */
+    height: 100px; /* Adjust size for mobile devices */
+  }
+  .label {
+    font-size: 2rem; /* Adjust label size for mobile devices */
+  }
+}

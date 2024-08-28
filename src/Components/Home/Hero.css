@@ -1,0 +1,159 @@
+.hero-section p {
+  font-size: 3rem;
+  text-transform: capitalize;
+ 
+}
+
+.hero-section h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Alkatra", system-ui;
+
+}
+/* hero section   */
+
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: auto 110%;
+  background-image: url('./background4.avif'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.img-photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 250px;
+}
+
+
+.button-container span {
+  margin: 5px;
+}
+
+
+.btn1 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.btn1:hover {
+ color: black;
+ transition: all 1s ease;
+
+}
+.btn2 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px 30px;
+  border: 1px solid rgb(222, 237, 243);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  transition: all 1s;
+  background-color:black;
+  color: white;
+  border: 2px solid #a6b4d4;
+
+}
+.button-container {
+  display: flex;
+  margin-top: 12px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px; 
+}
+
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(16deg);
+  }
+  20% {
+    transform: rotate(-6deg);
+  }
+  30% {
+    transform: rotate(16deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(16deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.waving-hand {
+  animation: wave 2.1s  infinite;
+  transform-origin: 75% 75%;
+  display: inline-block;
+}
+
+
+
+
+@media (max-width: 520px) {
+
+  .hero-section h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media(max-width:768px) {
+ 
+  /* .hero img{
+    margin-bottom: 120px;
+    width: 260px;
+  }
+  .hero h1{
+    margin-top: 50px;
+    width: 90%;
+    font-size: 50px;
+  }
+  .hero p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 10px 0px;
+  } */
+}
+
