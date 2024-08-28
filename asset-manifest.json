@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PortfolioPrachiSharma/static/css/main.b378c0ae.css",
+    "main.js": "/PortfolioPrachiSharma/static/js/main.3364b75c.js",
+    "static/media/HensaiAcademy.png": "/PortfolioPrachiSharma/static/media/HensaiAcademy.8ca4a1de26ceb2919a98.png",
+    "static/media/netflix.png": "/PortfolioPrachiSharma/static/media/netflix.0f867845b6fc774c48f3.png",
+    "static/media/weatherapp.png": "/PortfolioPrachiSharma/static/media/weatherapp.e7da141859f5e27c5507.png",
+    "static/media/photo.jpeg": "/PortfolioPrachiSharma/static/media/photo.5449fe770d57ee375a9a.jpeg",
+    "static/media/background4.avif": "/PortfolioPrachiSharma/static/media/background4.1729608c4db97768268c.avif",
+    "static/media/bluebubble.jpg": "/PortfolioPrachiSharma/static/media/bluebubble.1276ae8b140ca7505434.jpg",
+    "static/media/memorygame.png": "/PortfolioPrachiSharma/static/media/memorygame.0b98163e1bcfe59109a4.png",
+    "static/media/Calculator.png": "/PortfolioPrachiSharma/static/media/Calculator.f6beb26033d474de6982.png",
+    "index.html": "/PortfolioPrachiSharma/index.html",
+    "main.b378c0ae.css.map": "/PortfolioPrachiSharma/static/css/main.b378c0ae.css.map",
+    "main.3364b75c.js.map": "/PortfolioPrachiSharma/static/js/main.3364b75c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b378c0ae.css",
+    "static/js/main.3364b75c.js"
+  ]
+}
