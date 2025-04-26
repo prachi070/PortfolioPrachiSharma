@@ -82,7 +82,7 @@ const Hero = () => {
 
             {/* Social Icons */}
             <a
-              href="https://www.linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/prachi-sharma-24651b21a/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon linkedin"
@@ -91,7 +91,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://github.com/yourprofile"
+              href="https://github.com/prachi070"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon github"
@@ -100,7 +100,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://leetcode.com/yourprofile"
+              href="https://leetcode.com/u/prachisharmakv/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon leetcode"
