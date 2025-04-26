@@ -4,7 +4,6 @@
 
 
 
-
 * {
   margin: 0;
   padding: 0;
@@ -25,14 +24,11 @@ li {
   list-style: none;
 }
 
-/* 
+
  
 
-/* navbar style start  */
 .main-nav {
-  /* background-color: transparent; */
   background-color: #d1dbf1;
-  /* background-color: white; */
   width: 100%;
   height: 10rem;
   display: grid;
@@ -48,14 +44,13 @@ li {
 
 .logo {
   display: grid;
-  /* background-color: #3b5998; */
   grid-column: 2/3;
   justify-content: start;
   align-items: center;
   
 }
 .nav-icon {
-  margin-top: 2px; /* Space between icon and text */
+  margin-top: 2px; 
 }
 .menu-link {
   grid-column: 3/4;
@@ -88,7 +83,6 @@ li {
   grid-column: 2/3;
 }
 
-/* ----------- Grid part ends ----------------- */
 
 .logo h2 {
   font-size: 2.5rem;
@@ -149,8 +143,8 @@ li {
 }
 
 .menu-link ul li:hover .nav-icon {
-  transform: scale(1.2); /* Adjust the scale factor as needed */
-  transition: transform 0.3s ease; /* Smooth transition */
+  transform: scale(1.2); 
+  transition: transform 0.3s ease; 
 }
 
 
@@ -169,7 +163,6 @@ li {
 }
 
 .social-media-desktop li a :hover{
-  /* background-color: #233d76; */
   transform: scale(1.2);
   transition: all 1s ease;
  
@@ -177,8 +170,6 @@ li {
 
 
 
-
-/* responsive css style  */
 @media (max-width: 1080px) {
 
   .main-nav {
@@ -195,14 +186,12 @@ li {
 
 }
 
-/* responsive css style  */
 @media (max-width: 998px) {
 
 
   .main-nav {
     height: 7rem;
 
-    /* grid-template-columns: 2rem 2fr 3fr 2rem 2rem; */
   }
 
   .logo,
@@ -211,10 +200,8 @@ li {
   }
 
   .menu-link {
-    /* display: none; */
     height: 0;
     overflow: hidden;
-    /* transition: all 1s ease-out;  */
     
   }
  
@@ -252,15 +239,14 @@ li {
     height: 20rem;
     display: flex;
     gap: 12px;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: start;
 
 
   }
   .nav-icon {
-    margin-right: 8px; /* Space between icon and text */
-    font-size: 1.2.5rem; /* Adjust the icon size as needed */
+    margin-right: 8px; 
+    font-size: 1.2.5rem; 
   }
 
   .mobile-menu-link ul li:first-child {
@@ -327,7 +313,6 @@ transition-delay: 0.2s;
   .main-nav {
     height: 6rem;
     
-    /* grid-template-columns: 1rem 4fr 1fr 1fr 1rem; */
   }
 
   .logo,
@@ -356,7 +341,6 @@ transition-delay: 0.2s;
     
   }
   .mobile-menu-link {
-    /* background-color: white; */
     height: 20rem;
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1);
@@ -379,16 +363,4 @@ transition-delay: 0.2s;
 
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
